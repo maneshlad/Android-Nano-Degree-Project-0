@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/accent_material_light">
+
+    <TextView android:text="@string/tagline" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewTagline"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/buttonSpotify"
+        android:layout_below="@+id/textviewTagline"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primary_material_light"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:id="@+id/buttonScores"
+        android:layout_below="@+id/buttonSpotify"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primary_material_light"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:id="@+id/buttonLibrary"
+        android:layout_below="@+id/buttonScores"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primary_material_light"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/buttonBuild"
+        android:layout_below="@+id/buttonLibrary"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primary_material_light"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/buttonXyz"
+        android:layout_below="@+id/buttonBuild"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primary_material_light"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE: MY OWN PROJECT"
+        android:id="@+id/buttonCapstone"
+        android:layout_below="@+id/buttonXyz"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@color/button_material_dark"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:width="300dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+</RelativeLayout>
